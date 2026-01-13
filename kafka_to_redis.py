@@ -4,6 +4,8 @@ import time
 from kafka import KafkaConsumer
 import redis
 
+# this is executed from the docker compose
+
 def main():
     # Get configuration from environment variables or use defaults for local development
     redis_host = os.getenv("REDIS_HOST", "localhost")

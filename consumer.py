@@ -4,6 +4,8 @@ import json
 from faststream import FastStream
 from faststream.redis import RedisBroker
 
+# executed from console python consumer.py
+
 # Get Redis URL from environment or default to localhost
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
 

@@ -106,8 +106,9 @@ rm -rf debezium-data
 - `requirements.txt` - Python dependencies
 
 ## Why FastStream?
+It's new and simple.
 
-FastStream provides:
+FastStream also provides:
 - Modern async/await support
 - Built-in Redis Streams support
 - Easy-to-use decorators for message handling

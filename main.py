@@ -1,6 +1,6 @@
 import psycopg2
 import time
-import random
+# executed from console python main.py
 
 def connect_db():
     """Connect to PostgreSQL database"""
